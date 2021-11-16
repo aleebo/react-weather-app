@@ -1,0 +1,61 @@
+.weather .background {
+  padding: 30px 50px;
+  border-radius: 50px;
+  margin-top: 40px;
+  border: #000 solid;
+  background: linear-gradient(45deg, #f4f56e, #72e8e1, #58b3d3, #418c9f);
+}
+
+.weather .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px 60px;
+}
+
+. weather .search {
+  margin: 5px 10px;
+}
+
+.weather .float-left {
+  font-size: 75px;
+}
+
+.weather .weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather .weather-temperature .active {
+  color: blue;
+  cursor: default;
+}
+
+.weather .weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather .weather-forecast {
+  margin-top: 20x;
+  text-align: center;
+  color: #000;
+}
+.weather .creater {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.weather .weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.weather .weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather .weather-forecast-temperature {
+  font-size: 13px;
+}
